@@ -1,0 +1,25 @@
+# Type-checks and builds on every push and pull request, so a broken build is caught before Vercel deploys it.
+# The build needs no secrets: env vars are only read at request time, and without Supabase keys it uses content/portfolio.json.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
