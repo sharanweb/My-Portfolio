@@ -1,0 +1,384 @@
+{
+  "version": 3,
+  "theme": {
+    "accent": "#2b59e8",
+    "background": "aurora",
+    "animate": true,
+    "grain": true,
+    "defaultMode": "auto",
+    "serifAccent": true
+  },
+  "profile": {
+    "name": "Sharan Dooganavar",
+    "initials": "SD",
+    "role": "Senior Software Engineer",
+    "company": "Wishtree Technologies LLP",
+    "headline": "I build web products that feel *effortless*.",
+    "rotatePrefix": "Specialising in",
+    "rotating": [
+      "full-stack web apps",
+      "clean, scalable APIs",
+      "pixel-perfect interfaces",
+      "design systems"
+    ],
+    "bio": "Full-stack developer working across React, Node.js and the cloud. I turn complex requirements into clean, reliable software that teams enjoy maintaining.",
+    "location": "Pune, India",
+    "timezone": "Asia/Kolkata",
+    "tzLabel": "IST",
+    "available": true,
+    "availabilityText": "Open to new projects",
+    "avatar": "",
+    "focus": "Full-stack web apps",
+    "yearsLabel": "3+ years",
+    "resume": "",
+    "ctaPrimary": "View my work",
+    "ctaSecondary": "Get in touch",
+    "footer": "Designed and built with care."
+  },
+  "stats": [
+    {
+      "value": "3+",
+      "label": "Years building"
+    },
+    {
+      "value": "12",
+      "label": "Projects shipped"
+    },
+    {
+      "value": "5",
+      "label": "Certifications"
+    }
+  ],
+  "sections": [
+    {
+      "id": "stack",
+      "show": true,
+      "nav": "",
+      "eyebrow": "",
+      "title": "",
+      "subtitle": ""
+    },
+    {
+      "id": "about",
+      "show": true,
+      "nav": "About",
+      "eyebrow": "About",
+      "title": "A developer who cares about the *details*.",
+      "subtitle": ""
+    },
+    {
+      "id": "work",
+      "show": true,
+      "nav": "Work",
+      "eyebrow": "Selected work",
+      "title": "Projects I have *built and shipped*.",
+      "subtitle": "A few things I am proud of. Open any card for the full story."
+    },
+    {
+      "id": "experience",
+      "show": true,
+      "nav": "Experience",
+      "eyebrow": "Experience",
+      "title": "Where I have *worked and learned*.",
+      "subtitle": ""
+    },
+    {
+      "id": "testimonials",
+      "show": true,
+      "nav": "Testimonials",
+      "eyebrow": "Testimonials",
+      "title": "Kind words from *people I’ve worked with*.",
+      "subtitle": "Recommendations from clients, managers and teammates."
+    },
+    {
+      "id": "achievements",
+      "show": true,
+      "nav": "Awards",
+      "eyebrow": "Achievements",
+      "title": "Recognition along the *way*.",
+      "subtitle": "Awards, hackathons and milestones."
+    },
+    {
+      "id": "certifications",
+      "show": true,
+      "nav": "Certifications",
+      "eyebrow": "Certifications",
+      "title": "Always *learning*.",
+      "subtitle": "Verified credentials from courses and exams."
+    },
+    {
+      "id": "socials",
+      "show": true,
+      "nav": "Socials",
+      "eyebrow": "Find me online",
+      "title": "Where I am *active*.",
+      "subtitle": "Follow along for writing, code and updates."
+    },
+    {
+      "id": "contact",
+      "show": true,
+      "nav": "Contact",
+      "eyebrow": "Contact",
+      "title": "Let’s build something *together*.",
+      "subtitle": "Reach me on whichever channel suits you, or send a message right here."
+    }
+  ],
+  "about": "I enjoy the full lifecycle of a feature: shaping the requirement with the client, designing the data model, building the API and finishing the interface with care.\n\nI like small pull requests, clear naming and tests that explain intent. Outside client work I mentor newer developers and contribute to our internal component library.",
+  "skills": [
+    {
+      "group": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Redux",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "group": "Platform & tools",
+      "items": [
+        "AWS",
+        "Docker",
+        "GitHub Actions",
+        "Jest",
+        "Git",
+        "Figma"
+      ]
+    }
+  ],
+  "learning": [
+    "Rust",
+    "Kubernetes",
+    "System design"
+  ],
+  "interests": [
+    "Travel",
+    "Reading",
+    "Exploring new cafes"
+  ],
+  "projects": [
+    {
+      "title": "Client Portal",
+      "summary": "A secure customer portal with role-based access, analytics dashboards and document workflows.",
+      "details": "Built the portal from scratch for a professional services client. Customers sign in to track engagements, upload documents and see live reporting. I owned the API design, the permission model and most of the React front end.",
+      "highlights": [
+        "Role-based access with 5 permission tiers",
+        "Cut page load time by 48% with route-level code splitting",
+        "Audit log for every document action"
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "status": "Live",
+      "year": "2025",
+      "role": "Lead developer",
+      "link": "",
+      "repo": "",
+      "hue": 222,
+      "image": ""
+    },
+    {
+      "title": "Booking API",
+      "summary": "Scheduling and payments API handling availability, reminders and refunds across time zones.",
+      "details": "A REST API that powers booking for web and mobile clients. It handles recurring availability, payment capture and automated reminders.",
+      "highlights": [
+        "Idempotent payment endpoints",
+        "Rate limiting and request tracing",
+        "92% test coverage"
+      ],
+      "tags": [
+        "Express",
+        "MongoDB",
+        "Redis",
+        "Jest"
+      ],
+      "status": "Live",
+      "year": "2024",
+      "role": "Backend developer",
+      "link": "",
+      "repo": "",
+      "hue": 158,
+      "image": ""
+    },
+    {
+      "title": "Atlas UI Kit",
+      "summary": "A shared component library so internal products look and behave the same across teams.",
+      "details": "A typed React component library with documentation in Storybook, theming tokens and accessibility checks in CI.",
+      "highlights": [
+        "40+ accessible components",
+        "Light and dark themes from one token set",
+        "Visual regression tests"
+      ],
+      "tags": [
+        "TypeScript",
+        "React",
+        "Storybook",
+        "Figma"
+      ],
+      "status": "In progress",
+      "year": "2026",
+      "role": "Core contributor",
+      "link": "",
+      "repo": "",
+      "hue": 28,
+      "image": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Developer",
+      "company": "Wishtree Technologies",
+      "type": "Full-time",
+      "start": "2024",
+      "end": "Present",
+      "location": "Pune",
+      "summary": "Building and shipping full-stack features for international client projects.",
+      "points": [
+        "Own features end to end, from estimation to release",
+        "Review pull requests and mentor two junior developers",
+        "Introduced automated end-to-end tests to the release pipeline"
+      ]
+    },
+    {
+      "role": "Associate Software Developer",
+      "company": "Wishtree Technologies",
+      "type": "Full-time",
+      "start": "2022",
+      "end": "2024",
+      "location": "Pune",
+      "summary": "Worked across front end and API code on web applications for client teams.",
+      "points": [
+        "Built reusable React components used across three products",
+        "Wrote API integrations with payment and email providers"
+      ]
+    },
+    {
+      "role": "B.E. Computer Engineering",
+      "company": "University",
+      "type": "Education",
+      "start": "2018",
+      "end": "2022",
+      "location": "",
+      "summary": "Foundations in data structures, databases and software engineering.",
+      "points": []
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Hackathon Winner",
+      "org": "Company Innovation Hackathon",
+      "date": "2025",
+      "badge": "1st place",
+      "medal": "gold",
+      "description": "Built a working prototype of an AI-assisted support dashboard in 36 hours with a team of four.",
+      "link": ""
+    },
+    {
+      "title": "Star Performer Award",
+      "org": "Wishtree Technologies",
+      "date": "2024",
+      "badge": "Quarterly",
+      "medal": "silver",
+      "description": "Recognised for delivering a critical client release ahead of schedule.",
+      "link": ""
+    },
+    {
+      "title": "Open Source Contributor",
+      "org": "Community",
+      "date": "2023",
+      "badge": "",
+      "medal": "accent",
+      "description": "Merged fixes and documentation improvements into popular JavaScript libraries.",
+      "link": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "icon": "aws",
+      "date": "Mar 2025",
+      "credentialId": "",
+      "link": ""
+    },
+    {
+      "name": "Meta Front-End Developer",
+      "issuer": "Coursera",
+      "icon": "coursera",
+      "date": "Nov 2024",
+      "credentialId": "",
+      "link": ""
+    },
+    {
+      "name": "MongoDB Associate Developer",
+      "issuer": "MongoDB",
+      "icon": "mongodb",
+      "date": "Jun 2024",
+      "credentialId": "",
+      "link": ""
+    }
+  ],
+  "socials": [
+    {
+      "platform": "linkedin",
+      "url": "",
+      "handle": "",
+      "description": "Career updates and posts",
+      "metric": ""
+    },
+    {
+      "platform": "github",
+      "url": "",
+      "handle": "",
+      "description": "Code, side projects and contributions",
+      "metric": ""
+    },
+    {
+      "platform": "medium",
+      "url": "",
+      "handle": "",
+      "description": "Articles on frontend and engineering",
+      "metric": ""
+    },
+    {
+      "platform": "x",
+      "url": "",
+      "handle": "",
+      "description": "Quick thoughts and threads",
+      "metric": ""
+    },
+    {
+      "platform": "discord",
+      "url": "",
+      "handle": "",
+      "description": "Say hi in DMs",
+      "metric": ""
+    }
+  ],
+  "contact": {
+    "email": "sneha.kasar@wishtreetech.com",
+    "phone": "",
+    "discord": "",
+    "address": "Pune, Maharashtra, India",
+    "note": "I usually reply within a day.",
+    "form": true
+  },
+  "testimonials": []
+}

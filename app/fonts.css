@@ -1,0 +1,6 @@
+/* Points the stylesheet's font variables at next/font, keeping the original fallback stacks. */
+:root {
+  --font-sans: var(--nf-sans), "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: var(--nf-serif), "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-mono: var(--nf-mono), "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
